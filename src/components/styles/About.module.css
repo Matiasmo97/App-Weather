@@ -1,0 +1,58 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    background-color: rgba(61, 71, 83, 0.4);
+    color: rgba(248, 248, 248, 0.623);
+    border-radius: 0.8rem;
+    box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.contenedor:hover {
+    transform: scale(1.10);
+  }
+.title{
+    font-weight: bold;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    background-color: rgba(29, 31, 34, 0.4);
+    color: rgba(248, 248, 248, 0.623);
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+}
+.contenedor p{
+    padding: 1rem;
+}
+
+.redes{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.iconGitHub{
+    color: rgba(29, 31, 34, 0.4);
+}
+.iconGitHub:hover{
+    color: rgba(0, 0, 0, 0.589);
+}
+.iconInstagram{
+    margin-left: 0.5rem;
+    color: rgba(163, 1, 101, 0.76);
+}
+.iconInstagram:hover{
+    color: rgba(99, 6, 63, 0.76);
+}
+.iconLinkedin{
+    margin-left: 0.5rem;
+}
+
+/* ======== MEDIA ========*/
+@media screen and (max-width: 770px) {
+    .contenedor {
+      margin: 2rem;
+    }
+  }
