@@ -1,5 +1,5 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Card from "./Card";
 import Styles from "./styles/Cards.module.css";
 
@@ -23,14 +23,14 @@ export default function Cards({ cities, onClose }) {
             );
           })}
         </div>
-        {/* <footer className={Styles.content_about}>
+        <footer className={Styles.content_about}>
           <NavLink to="/about">
             <span className={Styles.about}>About</span>
           </NavLink>
           <div>
           <p className={Styles.title}>&#169; 2022 copyrigth all rigth reserved</p>
           </div>
-        </footer> */}
+        </footer>
       </div>
     );
   } else {

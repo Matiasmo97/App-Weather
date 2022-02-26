@@ -23,8 +23,9 @@ export default function Card({ min, max, name, img, onClose, id }) {
           <p>{min}°</p>
         </div>
       </div>
-      <div className={Styles.img}>
+      <div className={Styles.content_img}>
         <img
+          className={Styles.img}
           src={`http://openweathermap.org/img/wn/${img}@2x.png`}
           alt="Tiempo"
           width={95}

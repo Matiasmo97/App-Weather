@@ -10,7 +10,7 @@ function Nav({ onSearch }) {
       <div className={Styles.logo}>
       {/* Envolvemos el logo en un link para usarlo como botón de inicio */}
       <Link to='/'>
-        <img src={Logo} width={55} alt="Logo"/>
+        <img className={Styles.img} src={Logo} width={55} alt="Logo"/>
       </Link>
         <h1 className={Styles.title}>Weather</h1>
       </div>

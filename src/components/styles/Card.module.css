@@ -43,11 +43,11 @@
   margin-left: -2rem;
   }
 
-  .img{
+  .content_img{
   padding-top: 7.5rem;
   padding-left: 8rem;
   }
-img {
+.img {
   background-color: rgba(50, 66, 85, 0.4);
   border-radius: 0.8rem;
 }
