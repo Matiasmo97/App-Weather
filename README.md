@@ -1,28 +1,29 @@
-# Cotizador de Criptomonedas
+# App-Weather
 
-Es una Single Page donde podemos calcular el precio de diferentes Criptomonedas en diferentes tipos de monedas (Dolar, Euro, Peso Mexicano, Libra).
-Los datos son traidos desde la API de *CryptoCompare*.
+Single Page Application donde se puede buscar por nombre de ciudad y donde se muestra el clima actual de ella con algunos datos extras.
 
-## Lenguajes y herramientas que se utilizaron
-
-♦ JavaScript
+## Librerías utilizadas
 
 ♦ React
 
-♦ Axios
+♦ React router
 
-♦ Emotion.js
 
-♦ Animate.css
+## ♥ Desktop
 
-### ♣ *Qué aprendí?* 
-Aprendí a crear Custom Hooks y a crear estilos con Emotion.js
+![Captura de pantalla 2022-02-27 131046](https://user-images.githubusercontent.com/91911135/155890972-7fc83b06-7139-450d-ab16-6523be906f65.png)
 
-### Espero que les guste y les resulte útil ♥
 
-## Una captura de la Aplicación Web
+## ♠ Información extra de cada Ciudad
 
-![image](https://user-images.githubusercontent.com/91910994/150363529-48960ff4-7bc4-4946-9d37-693bea19cea4.png)
+![Captura de pantalla 2022-02-27 131145](https://user-images.githubusercontent.com/91911135/155890995-715008c4-5d89-4ec5-835e-fa05c0e1047d.png)
+
+## ♣ Diseño Responsive
+
+![Captura de pantalla 2022-02-27 131418](https://user-images.githubusercontent.com/91911135/155891017-14550c6e-e444-4662-81d0-07ebb63d2714.png)
+
+
+![Captura de pantalla 2022-02-27 131507](https://user-images.githubusercontent.com/91911135/155891023-a301b27c-ba81-4dd2-92c8-7653917b3a39.png)
 
 # Getting Started with Create React App
 
@@ -30,7 +31,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-### First `npm install`
+### `npm install`
 
 In the project directory, you can run:
 
@@ -66,33 +67,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
